@@ -1,0 +1,150 @@
+@media (max-width: 1990px) {
+    .contact-grid-wrapper {
+        width: 90%;
+    }
+
+    .form input {
+        padding: 1.5rem 0rem;
+    }
+
+    .form textarea {
+        padding: 1.5rem 0rem;
+    }
+}   
+
+@media (max-width: 615px) {   
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+    }
+
+    .navigation-wrapper > .center-column > .banner-image img {
+        width: 100%;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .navigation-wrapper > .right-column > .adress-wrapper {
+        order: 2;
+        margin-left: 15px;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .links-wrapper > .nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .header-wrapper > .header-content > .links-wrapper {
+        margin-right: 0px;
+    }
+
+    .hero-section {
+        padding: 50px 10px;
+    }
+
+    .feature-section {
+        height: 100%;
+    }
+
+    .feature-section > .columns-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .footer > .links-wrapper {
+        width: 150px;
+    }
+
+
+    .header > .header-wrapper > .header-content {
+        flex-direction: column;
+    }
+
+    .header > .header-bg {
+        background-size: 600px;
+    }
+
+    .page-container {
+        padding-left: 21px;
+        padding-right: 21px
+    }
+
+    .page-container > .content-wrapper {
+        margin-top: 20px;
+    }
+
+    .content-wrapper > #chef {
+        margin: 0px 0px 25px 0px !important;
+        width: 100% !important;
+    }
+
+    .square {
+        grid-template-columns: 1fr !important;
+    }
+
+    .square > .img-wrapper {
+        order: 2;
+    }
+
+    .square > .square-text-wrapper {
+        order: 1;
+    }
+
+    .contact-grid-wrapper {
+        width: 100% !important;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .form input {
+        padding: 1.5rem 0rem !important;
+    }
+
+    .form textarea {
+        padding: 1.5rem 0rem !important;
+    }
+
+    .company-metadata-sidebar-wrapper > .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .company-metadata-sidebar-wrapper > .logo img{
+        width: 50%;
+    }
+
+    .body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer > .social-media-icons-wrapper {
+        width: 200px;
+    }
+}   
